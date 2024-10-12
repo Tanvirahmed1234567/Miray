@@ -31,18 +31,18 @@ module.exports.run = async function({ api, event }) {
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
-		return api.sendMessage("Hello Everyone🙋‍♂️ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝⛓️", event.threadID, () => api.sendMessage({body:`🌺🦋🌺 
-𝐁𝐨𝐭 Made By 𝐀𝐫𝐮𝐧 𝐊𝐮𝐦𝐚𝐫☘️
+		return api.sendMessage(" 🫦-𝗛𝗲𝗹𝗹𝗼 𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲🙋‍♂️ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝⛓️_//-", event.threadID, () => api.sendMessage({body:`🌺🦋🌺 
+-𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥-☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+🫦-𝗕𝗢𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟-🫦 
 
-APPROVAL ALLOW IN THIS GROUP!!!
+𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 𝗔𝗟𝗟𝗢𝗪 𝗜𝗡 𝗧𝗛𝗜𝗦 𝗚𝗥𝗢𝗨𝗣-🫦
 <------------------------------>
 
-USE HELP TO SEE COMMAND 
-\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video , +video2 , +video3 (video songs)\n${global.config.PREFIX}music +song +sing (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info 
+-𝗨𝗦𝗘 𝗛𝗘𝗟𝗣 𝗧𝗢 𝗦𝗘𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗-🫦 
+\n\nUse ${global.config.PREFIX}-𝗵𝗲𝗹𝗽 𝘁𝗼 𝘀𝗲𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀-🫦.\n\nexample :\n${global.config.PREFIX}𝘃𝗶𝗱𝗲𝗼 , +𝘃𝗶𝗱𝗲𝗼2 , +𝘃𝗶𝗱𝗲𝗼3 (video songs)\n${global.config.PREFIX}𝗺𝘂𝘀𝗶𝗰 +𝘀𝗼𝗻𝗴 +𝘀𝗶𝗻𝗴 (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}𝗶𝗻𝗳𝗼 
 <<<<<------------------------------>>>>>
-AND FOR ANY REPORT OR CONTACT BOT DEVELOPE𝐫 `, attachment: fs.createReadStream(__dirname + "/cache/joinmp4/intro.mp4")} ,threadID));
+𝗔𝗡𝗗 𝗙𝗢𝗥 𝗔𝗡𝗬 𝗥𝗘𝗣𝗢𝗥𝗧 𝗢𝗥 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗕𝗢𝗧 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝐫-🫦 `, attachment: fs.createReadStream(__dirname + "/cache/joinmp4/intro.mp4")} ,threadID));
 	}
 	else {
 		try {
@@ -63,7 +63,7 @@ AND FOR ANY REPORT OR CONTACT BOT DEVELOPE𝐫 `, attachment: fs.createReadStrea
 			}
 			memLength.sort((a, b) => a - b);
 			
-			(typeof threadData.customJoin == "undefined") ? msg = " \n✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n    [   {name} ]\n\n༄✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀𝗠𝗮𝗷𝗲 𝗞𝗮𝗿𝗼🥀\n\n༄✺𝗢𝗿 𝗧𝘂𝗺 𝗜𝘀 𝗚𝗿𝗼𝘂𝗽 𝗞𝗲 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗛𝗼 𝗘𝗻𝗷𝗼𝘆 𝗞𝗮𝗿𝗼 𝗠𝗮𝗷𝗲 𝗟𝗼 [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  ═╩╝" : msg = threadData.customJoin;
+			(typeof threadData.customJoin == "undefined") ? msg = " \n✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n    [   {name} ]\n\n༄✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀-𝗲𝗻𝗷𝗼𝘆 𝗸𝗼𝗿𝗲𝗻-🥀\n\n༄✺-𝗥 𝗮𝗽𝗻𝗶 𝗲𝗶 𝗴𝗿𝗼𝘂𝗽 𝗲𝗿 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗘𝗻𝗷𝗼𝘆 𝗞𝗼𝗿𝗼 𝗷𝗮𝘄𝗿𝗮𝗺𝗸𝗶 𝗸𝗼𝗿𝗼_//- [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  ═╩╝" : msg = threadData.customJoin;
 			msg = msg
 			.replace(/\{name}/g, nameArray.join(', '))
 			.replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
