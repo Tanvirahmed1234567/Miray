@@ -25,13 +25,13 @@ const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Kolkata").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
 ["https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", "https://i.imgur.com/gjcmj4g.jpeg", "https://i.imgur.com/C4Ac6Hy.jpeg", "https://i.imgur.com/C4Ac6Hy.jpeg"];
-var callback = () => api.sendMessage({body:`🫦-𝙰𝙳𝙼𝙸𝙽 𝙰𝙽𝙳 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽-🫦 
+var callback = () => api.sendMessage({body:`●❯────────────────❮●\n         -♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-         \n●❯────────────────❮●\n\n🫦-𝙰𝙳𝙼𝙸𝙽 𝙰𝙽𝙳 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽-🫦 
 
 
 ☄️𝗕𝗢𝗧 𝗡𝗔𝗠𝗘☄️ ⚔ ${global.config.BOTNAME} ⚔
 
-🔥𝗢𝗪𝗡𝗘𝗥 🔥☞︎︎︎ 𝙰𝚛𝚞𝚗 𝙺𝚞𝚖𝚊𝚛 ☜︎︎︎✰ \n\n
-🙈-𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥-🙈➪ \n\n  𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 🧨𝗵𝘁𝘁𝗽𝘀://𝘄𝘄𝘄.𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸.𝗰𝗼𝗺/61550669852479 💞🕊️
+🔥𝗢𝗪𝗡𝗘𝗥 🔥☞︎︎︎ -♦𝐓𝐀𝐍𝐕𝐈𝐑♦- ☜︎︎︎✰ \n\n
+-♦𝐓𝐀𝐍𝐕𝐈𝐑 𝐁𝐎𝐓♦-➪ \n\n  𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 🧨𝗵𝘁𝘁𝗽𝘀://𝘄𝘄𝘄.𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸.𝗰𝗼𝗺/61550669852479 💞🕊️
   \n 
 ✅𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘👉 @𝘁𝗮𝗻𝘃𝗶_𝗿___112🫦 \n\n  ==== -𝗘𝗻𝗷𝗼𝘆 𝘁𝗵𝗶𝘀 𝗧𝗮𝗻𝘃𝗶𝗿 𝗕𝗢𝗧- === 
 ✧══════•❁❀❁•══════✧
